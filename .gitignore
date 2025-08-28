@@ -1,0 +1,22 @@
+# Ignorar entorno virtual
+venv/
+
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Base de datos local
+db.sqlite3
+
+# Archivos de migraciones (opcional subirlos, pero para empezar puedes ignorar)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Archivos de sistema
+*.log
+*.pot
+*.mo
+*.swp
+.DS_Store
